@@ -1,0 +1,22 @@
+.shop-category{
+   display: flex;
+   flex-direction: column;
+    height: 40vh;
+    background: linear-gradient(180deg,#fff8e1 0%,#e1ffea22 60%,#e1ffea22 60%);
+}
+
+.shop-category h2{
+    margin-top: 2%;
+    margin-left: 11%;
+    font-size: 58px;
+    
+ 
+}
+
+.shop-category h3{
+    margin-top: 12px;
+    margin-left: 11%;
+    font-size: 30px;
+    
+ 
+}

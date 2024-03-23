@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 18px;
+    /* box-shadow: 0 1px 2.5px -2px rgb(91, 91, 146); */
+
+
+}
+.logo{
+   display: flex;
+   align-items: center;
+   /* margin-left: 50px; */
+   font-size:large;
+   font-weight:bold;
+   color: rgb(90, 90, 228);
+   font-style: italic;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+ 
+   
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+
+.nav-menu li {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    font-size: 17px;
+    cursor: pointer;
+   
+}
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #FF4141;
+    margin-top: 7px;
+}
+.login-cart button{
+    width: 80px;
+    height: 32px;
+    outline: none;
+    border-radius: 75px;
+    border: 1px solid #7a7a7a;
+    color: #515151;
+    font-size: 13px;
+    font-weight: 300;
+    background: white;
+    cursor: pointer;
+
+}
+.login-cart button:active{
+    background:#fbe2fd;
+
+}
+
+
+
+
+
+
+

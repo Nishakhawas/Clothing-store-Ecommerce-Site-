@@ -3,6 +3,10 @@
    flex-direction: column;
     height: 40vh;
     background: linear-gradient(180deg,#fff8e1 0%,#e1ffea22 60%,#e1ffea22 60%);
+    margin-left: 11% ;
+    margin-top:15px;
+   
+    
 }
 
 .shop-category h2{
@@ -19,4 +23,28 @@
     font-size: 30px;
     
  
+}
+.shop-explore button{
+    margin-left: 11%;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(238, 167, 61);
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+
+    
+
+}
+h3 span{
+    color: rgb(238, 167, 61);
+}
+.image img{
+    display: flex;
+    margin-left: 80%;
+    margin-top: 80px;
+   
 }

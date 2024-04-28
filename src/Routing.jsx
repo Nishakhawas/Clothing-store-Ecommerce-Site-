@@ -23,8 +23,8 @@ export default function Routing() {
      <Route path="/kids" element={<ShopCategory/>} />  
      <Route path="/product" element={Product} />  
      <Route path=":productId" element={Product} />    
-     <Route path="/login" element={Login} />    
-     <Route path="/cart" element={Cart} />  
+     <Route path="/login" element={<Login/>} />    
+     <Route path="/cart" element={<Cart/>} />  
        
      </Routes>
      <Footer/>

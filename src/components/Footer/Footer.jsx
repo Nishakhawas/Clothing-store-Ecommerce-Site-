@@ -14,10 +14,11 @@ export default function Footer() {
         </ul>
 
          <div className="logo">
-          
+         
             <li>Pinterest</li>
             <li>Instagram</li>
             <li>WhatsApp</li>
+           
          
            
         </div>

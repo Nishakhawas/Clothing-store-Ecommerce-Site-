@@ -7,6 +7,8 @@ import NewsLetter from '../components/NewsLetter/NewsLetter'
 
 
 
+
+
 export default function Shop() {
   return (
     <div>
@@ -15,6 +17,7 @@ export default function Shop() {
        <Offer/>
        <NewCollections/>
        <NewsLetter/>
+     
        
       
       

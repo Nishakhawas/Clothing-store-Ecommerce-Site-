@@ -20,7 +20,7 @@ SHOPPER
         <li onClick={()=>{setMenu("kids")}}> <Link style={{textDecoration:'none'}} to = '/kids'>Kids</Link>{menu==="kids"?<hr/>:<></>} </li>
     </ul>
     <div className='login-cart'>
-        <button> <Link style={{textDecoration:'none'}} to ='/login'>LOGIN</Link></button>
+        <button onClick= {()=>{setMenu("login")}}> <Link style={{textDecoration:'none'}} to ='/login'>LOGIN</Link></button>
         <img src="" alt="" /> 
         {/* <div className='nav-count'>0</div> */}
       

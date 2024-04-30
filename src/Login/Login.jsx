@@ -1,5 +1,5 @@
 import React from 'react'
-import './CSS/Login.css'
+import './Login.css'
 export default function Login() {
   return (
     <div className='form'>
@@ -9,8 +9,9 @@ export default function Login() {
       <input type="text"placeholder='Enter Your Name' />
       <input type="email"placeholder='Enter Your email ' />
       <input type="password"placeholder='Enter Your password' />
+      <button className='button'>CONTINUE</button>
         </div>
-     <button>CONTINUE</button>
+     
      <p className='loginsignup-login'>Already have an account?<span> Login Here</span></p>
      <div className="loginsignup-agree">
       <input type="checkbox" name="" id="" />

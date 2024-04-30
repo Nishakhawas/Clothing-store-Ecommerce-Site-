@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import ShopCategory from './pages/ShopCategory'
 import Shop from './pages/Shop'
 import Product from './pages/Product'
-import Login from './pages/Login'
+import Login from './Login/Login'
 import Cart from './pages/Cart'
 import Footer from './components/Footer/Footer'
 

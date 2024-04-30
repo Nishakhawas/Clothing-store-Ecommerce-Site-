@@ -1,30 +1,36 @@
 .shop-category{
    display: flex;
    flex-direction: column;
-    height: 40vh;
+    height: 50vh;
     background: linear-gradient(180deg,#fff8e1 0%,#e1ffea22 60%,#e1ffea22 60%);
     margin-left: 11% ;
     margin-top:15px;
+    width: 100%;
    
     
 }
 
-.shop-category h2{
-    margin-top: 2%;
+.shop-category h3{
+    margin-top: 30px;
     margin-left: 11%;
     font-size: 58px;
     
  
 }
 
-.shop-category h3{
+.shop-category h4{
     margin-top: 12px;
-    margin-left: 11%;
+    margin-left: 20px;
     font-size: 30px;
     
  
 }
-.shop-explore button{
+.shop-category h4{
+    margin-top: 12px;
+    margin-left: 11%;
+
+}
+.shop-category button{
     margin-left: 11%;
     margin-top: 20px;
     width: 150px;
@@ -42,9 +48,7 @@
 h3 span{
     color: rgb(238, 167, 61);
 }
-.image img{
-    display: flex;
-    margin-left: 80%;
-    margin-top: 80px;
-   
+
+img{
+    margin-left: 70%;
 }

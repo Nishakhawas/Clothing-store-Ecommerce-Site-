@@ -49,6 +49,17 @@ h3 span{
     color: rgb(238, 167, 61);
 }
 
-img{
-    margin-left: 70%;
+ .mens img{
+    margin-left: 55%;
+   margin-top: -12%;
+  height: 120%
+}
+.explore img{
+    height: 300px;
+    width: 200px;
+   margin-left: 12%;
+   
+}
+.category{
+    display: flex;
 }

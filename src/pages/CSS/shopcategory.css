@@ -52,14 +52,27 @@ h3 span{
  .mens img{
     margin-left: 55%;
    margin-top: -12%;
-  height: 120%
+  height: 130%
 }
 .explore img{
     height: 300px;
-    width: 200px;
-   margin-left: 12%;
+    width: 240px;
+   padding-left: 70px;
+margin-top: 15%;
+   
    
 }
 .category{
     display: flex;
+   margin-left: 8%;
+  
+   
+}
+.ex1 img{
+    height: 300px;
+    width: 240px;
+   padding-left: 70px;
+margin-top: 7%;
+   
+
 }

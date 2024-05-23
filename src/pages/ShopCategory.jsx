@@ -22,6 +22,7 @@ export default function ShopCategory() {
       <div className='mens'>
         <img  src={mens} alt="" />
         </div>
+        
           </div>
           <div className='category'>
           <div className='explore'>

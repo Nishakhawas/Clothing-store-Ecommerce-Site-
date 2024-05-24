@@ -1,4 +1,6 @@
 import React from 'react'
+import './CSS/shopkids.css'
+import kid1 from "../components/Assets/kids1.jpg"
 
 export default function ShopKids() {
   return (
@@ -6,10 +8,13 @@ export default function ShopKids() {
       <div className='shop-category'>
       <h3>50% OFF</h3>
       <h4>SHOP NOW</h4>
-      {/* <h3><span>12 </span>Hours <span>20</span> mins</h3> */}
+
       <div>
       <button >Explore now</button>
       </div>
+      <div className='kids'>
+        <img  src={kid1} alt="" />
+        </div>
     </div>
   )
 }

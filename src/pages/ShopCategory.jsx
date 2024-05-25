@@ -30,7 +30,7 @@ export default function ShopCategory() {
         <img src={mens2} alt="" />
         <img src={mens3}alt="" />
         <img src={mens5}alt="" />
-        <div className='ex1'>
+        <div className='explore1'>
         <img src={mens6}alt="" />
         <img src={mens7}alt="" />
         <img src={mens12}alt="" />

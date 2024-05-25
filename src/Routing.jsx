@@ -27,7 +27,6 @@ export default function Routing() {
      <Route path=":productId" element={Product} />    
      <Route path="/login" element={<Login/>} />    
      <Route path="/cart" element={<Cart/>} />  
-       
      </Routes>
      <Footer/>
      </>

@@ -1,6 +1,29 @@
 .kids img{
     margin-left: 55%;
-   margin-top:-6%;
-  height: 80%;
+   margin-top:-8%;
+  /* height: 150%; */
+  width: 23%;
+
+}
+.explore1 img{
+  height: 300px;
+  width: 240px;
+ padding-left: 70px;
+margin-top: 15%;
+ 
+ 
+}
+.category1{
+  display: flex;
+ margin-left: 8%;
+
+ 
+}
+.explore2 img{
+  height: 300px;
+  width: 240px;
+ padding-left: 70px;
+margin-top: 7%;
+ 
 
 }

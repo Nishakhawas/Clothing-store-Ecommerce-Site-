@@ -1,5 +1,6 @@
 import React from 'react'
-
+import './CSS/shopwomen.css'
+import women3 from '../components/Assets/women3.jpg'
 export default function ShopWomen() {
   return (
       <div className='shop-category'>
@@ -9,6 +10,9 @@ export default function ShopWomen() {
       <div>
       <button >Explore now</button>
       </div>
+      <div className='women'>
+        <img  src={women3} alt="" />
+        </div>
     </div>
   )
 }

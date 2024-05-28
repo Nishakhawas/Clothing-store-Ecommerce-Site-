@@ -14,18 +14,26 @@ export default function ShopWomen() {
       <button >Explore now</button>
       </div>
       <div className='women'>
-        <img  src={women3} alt="" />
+        <img  src={women2} alt="" />
         </div>
     </div>
     <div className='category2'>
-    <div className='explore2'>
+    <div className='explore3'>
   <img src={women1} alt="" />
   <img src={women2} alt="" />
+  <img src={women1} alt="" />
   <img src={women2} alt="" />
+  <div className='explore4'>
+  <img src={women1} alt="" />
   <img src={women2} alt="" />
- 
+  <img src={women1} alt="" />
+  <img src={women2} alt="" />
+
+   </div>
   </div>
   </div>
+  
+
   </>
   )
  

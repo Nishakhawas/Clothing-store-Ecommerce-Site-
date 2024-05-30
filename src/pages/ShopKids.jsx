@@ -33,6 +33,7 @@ export default function ShopKids() {
    <img src={kid6} alt="" />
    <img src={kid4} alt="" />
    <img src={kid5} alt="" />
+   <img src={kid5} alt="" />
    </div>
 
 

@@ -28,6 +28,8 @@ export default function ShopWomen() {
   <img src={women2} alt="" />
   <img src={women1} alt="" />
   <img src={women2} alt="" />
+  <img src={women2} alt="" />
+  <img src={women2} alt="" />
 
    </div>
   </div>

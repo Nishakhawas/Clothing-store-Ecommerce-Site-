@@ -41,7 +41,7 @@
     flex-direction: column;
     font-size: 17px;
     cursor: pointer;
-    margin-top: 18px;
+    margin-top: 15px;
    
 }
 .nav-menu hr{
@@ -63,15 +63,38 @@
     font-weight: 300;
     background: white;
     cursor: pointer;
-    margin-top:18px ;
+    margin-top:15px ;
 
 }
 .login-cart button:active{
     background:#fbe2fd;
 
+
+
 }
 
+ .login-cart .cart{
+    height: 23px;
+    width: 40px;
+   color: rgb(39, 38, 38);
+   margin-left: 30px;
 
+   
+}
+
+ .nav-count{
+    height: 18px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -49px;
+    margin-left:138px;
+    border-radius: 11px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+}
 
 
 

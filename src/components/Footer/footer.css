@@ -33,6 +33,8 @@
 
 .footer h2{
     margin: 30px;
+    color: rgb(255, 74, 156);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer-copyright hr{
@@ -43,18 +45,49 @@
     background: #c7c7c7;
 }
 
-.logo
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    list-style: none;
-   
+.footer .footer-logo{
+    height: 40px;
+    width: 40px;
+ 
+    color:rgb(252, 132, 186);
+}
+.footer .footer-links{
+    margin-top: -25px;
+    
 }
 
-.logo li{
+.logo .logo1
+{
+    width: 40px;
+    height: 40px;
+    color: red;
+    padding: 20pox;
+}
+
+.logo{
+    gap:20px
+}
+
+.logo .logo2
+{
+    width: 40px;
+    height: 40px;
+    color: rgb(246, 51, 51);
+    padding: 20pox;
+}
+
+.logo .logo3
+{
+    width: 40px;
+    height: 40px;
+    color:rgb(33, 209, 33);
+    padding: 20pox;
+}
+
+
+
+/* .logo li{
     list-style: none;
     cursor: pointer;
 
-}
+} */

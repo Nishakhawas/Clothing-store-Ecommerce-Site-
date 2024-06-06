@@ -1,10 +1,12 @@
 import React from 'react'
 import './footer.css'
+import { FaPinterest ,FaInstagramSquare,FaShopify} from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
     <div className='footer'>  
-    <h2>SHOPPER</h2>
+    <h2>  <FaShopify className='footer-logo'/>SHOPPER</h2>
         <ul className='footer-links'>
             <li>Company</li>
             <li>Products</li>
@@ -14,13 +16,10 @@ export default function Footer() {
         </ul>
 
          <div className="logo">
-         
-            <li>Pinterest</li>
-            <li>Instagram</li>
-            <li>WhatsApp</li>
+         <FaPinterest className='logo1'/>
+         < FaInstagramSquare  className='logo2' />
            
-         
-           
+            <FaWhatsapp className='logo3'/> 
         </div>
         <div className="footer-copyright">
             <hr />

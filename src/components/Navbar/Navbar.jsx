@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { FaShoppingCart } from "react-icons/fa";
+import { FaShoppingCart, FaShopify } from "react-icons/fa";
+
 
 import { Link } from 'react-router-dom';
 import './navbar.css'
@@ -13,6 +14,8 @@ export default function Navbar() {
     <>
   <nav className='navbar'>
     <div className='logo'>
+      <FaShopify className='shop-logo'/>
+
 SHOPPER
     </div>
     <ul className='nav-menu'>

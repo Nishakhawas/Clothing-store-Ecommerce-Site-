@@ -14,9 +14,8 @@ export default function Navbar() {
     <>
   <nav className='navbar'>
     <div className='logo'>
-      <FaShopify className='shop-logo'/>
-
-SHOPPER
+      
+<h2> <FaShopify className='shop-logo'/>SHOPPER</h2>
     </div>
     <ul className='nav-menu'>
         <li onClick={()=>{setMenu("shop")}}> <Link  style={{textDecoration:'none'}}to ='/'>Shop</Link>{menu==="shop"?<hr/>:<></>} </li>
@@ -26,9 +25,11 @@ SHOPPER
     </ul>
     < div className='login-cart'>
         <button onClick= {()=>{setMenu("login")}}> <Link style={{textDecoration:'none'}} to ='/login'>LOGIN</Link></button>
+        
         <FaShoppingCart className='cart'/> 
        <div className='nav-count'>   
         0</div>
+        
         
     </div>
    

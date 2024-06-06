@@ -15,7 +15,7 @@
    display: flex;
    align-items: center;
    /* margin-left: 50px; */
-   font-size:large;
+   font-size:medium;
    font-weight:bold;
    color: rgb(255, 74, 156);
    font-style: italic;
@@ -23,10 +23,14 @@
  
    
 }
+.logo h2{
+    font-size: medium;
+}
 .logo .shop-logo{
     height: 40px;
     width: 38px;
     color:rgb(252, 132, 186);
+    /* margin-left: 20px; */
 }
 .nav-menu{
     display: flex;
@@ -68,7 +72,7 @@
     font-weight: 300;
     background: white;
     cursor: pointer;
-    margin-top:15px ;
+    margin-top:10px ;
 
 }
 .login-cart button:active{
@@ -82,7 +86,9 @@
     height: 23px;
     width: 40px;
    color: rgb(39, 38, 38);
-   margin-left: 30px;
+   margin-left: 25px;
+   margin-top: 15px;
+   position: absolute;
 
    
 }
@@ -93,13 +99,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -49px;
-    margin-left:138px;
+    margin-top: -40px;
+    margin-left:134px;
     border-radius: 11px;
     font-size: 14px;
     background-color: red;
     color: white;
 }
+
 
 
 

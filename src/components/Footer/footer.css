@@ -14,9 +14,10 @@
     font-size: 20px;
 
 }
-.footer-links li {
+.footer-links li:hover{
     cursor: pointer;
     margin-top: 2px;
+    color: grey;
 }
 
 .footer-copyright{
@@ -35,6 +36,7 @@
     margin: 30px;
     color: rgb(255, 74, 156);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
 }
 
 .footer-copyright hr{
@@ -65,7 +67,8 @@
 }
 
 .logo{
-    gap:20px
+    gap:30px;
+    cursor: pointer;
 }
 
 .logo .logo2

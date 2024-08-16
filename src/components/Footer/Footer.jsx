@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 export default function Footer() {
   return (
     <div className='footer'>  
-    <h2>  <FaShopify className='footer-logo'/>SHOPPER</h2>
+    <h2><FaShopify className='footer-logo'/>SHOPPER</h2>
         <ul className='footer-links'>
             <li>Company</li>
             <li>Products</li>

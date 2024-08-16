@@ -3,8 +3,9 @@ import './item.css'
 import model1 from '../Assets/model1.png'
 import model2 from '../Assets/model2.jpg'
 import model3 from '../Assets/model3.jpg'
-import model7 from '../Assets/model7.jpg'
-import model6 from '../Assets/model6.jpg'
+import dress1 from '../Assets/dress1.webp'
+import dress3 from '../Assets/dress3.webp'
+import dress4 from '../Assets/dress4.png'
 
 export default function Items() {
   return (
@@ -14,10 +15,11 @@ export default function Items() {
         </div>
         <div className='image'>
       <img src={model1} alt=""/> 
+      <img src={dress4} alt=""/> 
       <img src={model3} alt="" />     
       <img src={model2} alt="" />
-      <img src={model6} alt="" />
-      <img src={model7} alt="" />
+      <img src={dress3} alt="" />
+      <img src={dress1} alt="" />
       
       </div>
    

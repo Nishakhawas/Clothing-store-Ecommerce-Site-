@@ -1,9 +1,15 @@
 import React from 'react'
 import './newcollection.css'
-import model5 from '../Assets/model5.jpg'
-import model4 from '../Assets/model4.jpg'
-import model8 from '../Assets/model8.jpg'
-import model9 from '../Assets/model9.jpg'
+
+
+import dress8 from '../Assets/dress8.jpg'
+
+import dress12 from '../Assets/dress12.webp'
+import dress13 from '../Assets/dress13.jpg'
+import dress10 from '../Assets/dress10.jpg'
+
+import dress14 from '../Assets/dress14.webp'
+import dress15 from '../Assets/dress15.webp'
 
 export default function NewCollections() {
   return (
@@ -11,10 +17,12 @@ export default function NewCollections() {
         <h1>NEW COLLECTIONS</h1>
         <hr />
       <div className="collections">
-      <img src={model9} alt=""/>      
-      <img src={model5} alt="" />
-      <img src={model8} alt="" />
-      <img src={model4} alt="" />
+      <img src={dress8} alt=""/>      
+      <img src={dress12} alt="" />
+      <img src={dress10} alt="" />
+      <img src={dress13} alt="" />
+      <img src={dress15} alt="" />
+      <img src={dress14} alt="" />
       
       </div>
       </div>
